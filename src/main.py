@@ -13,9 +13,7 @@ template_path = "./template.html"
 default_basepath = "/"
 
 
-
 def main():
-
     basepath = default_basepath
     if len(sys.argv) > 1:
         basepath = sys.argv[1]
